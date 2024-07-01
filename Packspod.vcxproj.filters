@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="Memory\VTableHook.h" />
+    <ClInclude Include="Engine\Classes.h" />
+    <ClInclude Include="Engine\Custom.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Framework\Framework.h" />
+    <ClInclude Include="Framework\Radar.h" />
+    <ClInclude Include="Hooks\Settings.h" />
+    <ClInclude Include="Framework\Wrapper.h" />
+    <ClInclude Include="Hooks\DrawTransition.h" />
+    <ClInclude Include="Safety\Imports.h" />
+    <ClInclude Include="Memory\PageTable.h" />
+    <ClInclude Include="Memory\Map.h" />
+    <ClInclude Include="Memory\NoCRT.h" />
+    <ClInclude Include="Memory\Signature.h" />
+    <ClInclude Include="Memory\Vector.h" />
+    <ClInclude Include="Safety\SKCrypter.h" />
+    <ClInclude Include="Hooks\GetWeaponTargetingTransform.h" />
+    <ClInclude Include="Hooks\GetSearchTime.h" />
+    <ClInclude Include="Safety\Humanization.h" />
+    <ClInclude Include="Hooks\Exploits.h" />
+    <ClInclude Include="Engine\Objects.h" />
+    <ClInclude Include="Memory\WalkVFT.h" />
+    <ClInclude Include="Hooks\GetControlRotation.h" />
+  </ItemGroup>
+</Project>
